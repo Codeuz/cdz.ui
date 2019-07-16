@@ -1,0 +1,27 @@
+{
+    "name": "cdz/ui",
+    "description": "UI components for Laravel 5 based on Bootstrap 4",
+    "authors": [
+        {
+            "name": "Aurélie Palette",
+            "email": "aurelie@codeuz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Cdz\\Ui\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cdz\\Ui\\UiServiceProvider"
+            ]
+        }
+    }
+}
