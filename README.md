@@ -1,6 +1,31 @@
 # cdz.ui
 UI components for Laravel 5 based on Bootstrap 4.
 
+## Installation
+
+### Development Mode
+This mode will allow you to contribute to the package's development.
+
+1. Download files and place them into *packages/cdz/ui* 
+
+2. Update your Laravel *composer.json* file:
+
+        "require": {
+          "cdz/ui": "dev-master",
+           ***
+         },
+         ***
+         "repositories": [
+            {
+              "type": "path",
+              "url": "packages/cdz/ui/",
+              "options": {
+                 "symlink": true
+               }
+            }
+        ]
+
+
 ## How to use?
 
 ### Starter Template
